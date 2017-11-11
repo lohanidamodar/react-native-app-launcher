@@ -12,7 +12,7 @@ import java.util.List;
 
 public class LauncherPackage implements ReactPackage {
 
-    @Override
+    // deprecated >= RN 0.47.0
     public List<Class<? extends JavaScriptModule>> createJSModules() {
         return Collections.emptyList();
     }
